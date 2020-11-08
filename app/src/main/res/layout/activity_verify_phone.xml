@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".VerifyPhoneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:id="@+id/safe_outs_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/crop_safe_outs"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/verified_user"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_verified_user_24"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/verified"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#2BA7E1"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:layout_marginTop="2dp"
+            android:visibility="invisible"
+            android:textSize="28dp"
+            android:text="Verified!"
+            android:gravity="center_horizontal" />
+<TextView
+    android:id="@+id/enter_phone_number"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="#2BA7E1"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_marginTop="1dp"
+    android:textSize="28dp"
+    android:text="Enter your Phone no."/>
+        <TextView
+            android:id="@+id/verify_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#2BA7E1"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="2dp"
+            android:visibility="invisible"
+            android:textSize="28dp"
+            android:text="Enter OTP"/>
+        <TextView
+            android:id="@+id/register_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#2BA7E1"
+            android:layout_marginTop="1dp"
+            android:visibility="invisible"
+            android:textSize="18dp"
+            android:text="OTP has been sent to your registered phone no."/>
+
+        <EditText
+            android:id="@+id/editTextCode"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="1dp"
+            android:padding="10dp"
+            android:hint="Write phone number here..."
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/verification_code_input"
+            android:visibility="invisible"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="1dp"
+            android:padding="10dp"
+            android:hint="Write verification code here..."
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <Button
+            android:id="@+id/buttonVerify"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Generate OTP"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            android:textColor="#fff"
+            android:layout_marginTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/resentotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#2BA7E1"
+            android:textStyle="bold"
+            android:textColor="#009688"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            android:textSize="15dp"
+            android:text="Resent OTP"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/changephoneno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#2BA7E1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#009688"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"
+            android:textSize="15dp"
+            android:text="Change phone no"
+            android:gravity="center_horizontal" />
+        <Button
+            android:id="@+id/verify_button"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/background_light"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

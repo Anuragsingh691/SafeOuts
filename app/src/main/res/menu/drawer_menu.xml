@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/changeemail"
+            android:title="Change email/phone no."
+            android:icon="@drawable/ic_baseline_account_circle_24"/>
+        <item
+            android:id="@+id/privacy"
+            android:title="Privacy"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"/>
+        <item
+            android:id="@+id/contact_tracing"
+            android:title="Contact tracing"
+            android:icon="@drawable/ic_message"/>
+        <item
+            android:id="@+id/rating"
+            android:title="Rate our app"
+            android:icon="@drawable/ic_baseline_star_rate_24"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_baseline_close_24"/>
+    </group>
+</menu>
